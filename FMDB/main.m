@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DAO.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+     [DAO createTablesNeeded];
     }
     return 0;
 }
